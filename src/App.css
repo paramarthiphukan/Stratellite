@@ -1,0 +1,176 @@
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+#root{
+  display: grid;
+  grid-template-columns: 20% 80%;
+  overflow: hidden;
+}
+.expanded {
+  display: grid;
+  grid-template-columns: 100%;
+  overflow: hidden;
+}
+.home,
+.calender,
+.messages {
+  display: grid;
+  grid-template-columns: auto 28.125%;
+}
+.home {
+  height: 100vh;
+}
+.project {
+  width: 80vw !important;
+  height: 100vh;
+}
+.project-card {
+  width: 100%;
+}
+.calender,
+.messages {
+  overflow: auto !important;
+  height: 100vh;
+}
+.invoice-card {
+  aspect-ratio: 322/207;
+  height: 12.9375rem;
+}
+* {
+  box-sizing: border-box;
+}
+
+@media (max-width: 3750px) {
+  html,
+  body {
+    font-size: 160%;
+  }
+}
+
+@media (max-width: 3400px) {
+  html,
+  body {
+    font-size: 160%;
+  }
+}
+
+@media (max-width: 3150px) {
+  html,
+  body {
+    font-size: 150%;
+  }
+}
+
+@media (max-width: 2900px) {
+  html,
+  body {
+    font-size: 140%;
+  }
+}
+
+@media (max-width: 2650px) {
+  html,
+  body {
+    font-size: 130%;
+  }
+}
+
+@media (max-width: 2400px) {
+  html,
+  body {
+    font-size: 120%;
+  }
+}
+
+@media (max-width: 2150px) {
+  html,
+  body {
+    font-size: 110%;
+  }
+}
+
+@media (max-width: 1900px) {
+  html,
+  body {
+    font-size: 100%;
+  }
+}
+
+@media (max-width: 1650px) {
+  html,
+  body {
+    font-size: 90%;
+  }
+}
+
+@media (max-width: 1400px) {
+  html,
+  body {
+    font-size: 80%;
+  }
+}
+
+@media (max-width: 1150px) {
+  html,
+  body {
+    font-size: 70%;
+  }
+}
+
+@media (max-width: 1100px) {
+  html,
+  body {
+    font-size: 60%;
+  }
+}
+
+@media (max-width: 900px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 100%;
+  }
+  #root {
+    display: grid;
+    grid-template-columns: auto;
+    overflow: hidden;
+  }
+  .expanded {
+    display: grid;
+    grid-template-columns: 100%;
+    overflow: hidden;
+  }
+  .home,
+  .calender,
+  .messages {
+    grid-template-columns: auto;
+  }
+  .project {
+    width: 100vw !important;
+  }
+}
+
+@media (max-width: 400px) {
+  html {
+    font-size: 90%;
+  }
+}
+
+@media (max-width: 350px) {
+  html {
+    font-size: 80%;
+  }
+}
+
+@media (max-width: 310px) {
+  html {
+    font-size: 70%;
+  }
+}
